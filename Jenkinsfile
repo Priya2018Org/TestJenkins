@@ -1,3 +1,4 @@
+@Library('testdsl')
 mydp {
     branch = 'master'
     scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
