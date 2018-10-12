@@ -1,3 +1,3 @@
-@Library('testdsl')_
+@library('testdsl')_
 
 hello 'Starting'
