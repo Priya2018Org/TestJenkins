@@ -2,4 +2,4 @@
 @Library('testdsl@master')_
 
 hello 'Starting'
-mydp
+mydp()
