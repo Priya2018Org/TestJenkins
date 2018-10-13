@@ -3,7 +3,7 @@
 
 hello 'Starting'
 
-mydp {
+mydp(
     branch = 'master'
     scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
     email = 'team@example.com'
@@ -11,4 +11,4 @@ mydp {
     developmentServer = 'dev-myproject.mycompany.com'
     stagingServer = 'staging-myproject.mycompany.com'
     productionServer = 'production-myproject.mycompany.com'
-}
+)
