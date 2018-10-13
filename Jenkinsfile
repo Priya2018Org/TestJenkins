@@ -1,4 +1,4 @@
 #!groovy
-@Library('testdsl')_
+@Library('testdsl@master')_
 
 hello 'Starting'
