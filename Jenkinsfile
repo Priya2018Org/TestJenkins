@@ -3,8 +3,8 @@
 
 hello 'Starting'
 
-mydp(branch: 'master', scmUrl: 'ssh://git@myScmServer.com/repos/myRepo.git',
-                   email: 'team@example.com', serverPort: '8080',
-                   developmentServer: 'dev-myproject.mycompany.com',
-                   stagingServer: 'staging-myproject.mycompany.com',
-                   productionServer: 'production-myproject.mycompany.com')
+mydp('master', 'ssh://git@myScmServer.com/repos/myRepo.git',
+                    'team@example.com', '8080',
+                  'dev-myproject.mycompany.com',
+                   'staging-myproject.mycompany.com',
+                   'production-myproject.mycompany.com')
